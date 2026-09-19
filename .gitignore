@@ -1,0 +1,35 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Temp / exports / caches
+*.tmp
+*.temp
+*~
+.cache/
+tmp/
+temp/
+
+# Large / proprietary workfiles (keep exports only)
+*.psd
+*.psb
+*.ai
+*.blend
+*.blend1
+*.flp
+*.als
+*.aup3
+
+# Archives often uploaded by mistake
+*.zip
+*.rar
+*.7z
+
+# Secrets (should never land in an assets repo)
+.env
+.env.*
+*.pem
+credentials.json
